@@ -19,6 +19,7 @@ public class Templating_Engine
 	{
 		queryRecords();
 		swapMergeFields();
+		return body;
 	}
 
 	public void addMergeRecord(Id recordId, String namespace)
